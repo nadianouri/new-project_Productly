@@ -5,124 +5,141 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>productly</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/index.css/style.css">
 </head>
 <body>
-    <header>
-        <a href="index.html"><img src="./images/logo.png" alt=""><span>productly</span></a>
+    <header class="header">
+        <a href="index.html" class="logo"><img src="./images/Logo.svg" alt=""></a>
+        <nav>
+            <ul class="nav">
+                <li><a href="http://">product</a></li>
+                <li><a href="http://">custmers</a></li>
+                <li><a href="http://">pricing</a></li>
+                <li><a href="http://">resources</a></li>
+                <li><button class="nav-btn__signin">sign in</button></li>
+                <li><button class="nav-btn__signup btn_color">sign up</button></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li>product</li>
-            <li>custmers</li>
-            <li>pricing</li>
-            <li>resources</li>
-            <li><button>sign in</button></li>
-            <li><button>sign up</button></li>
-        </ul>
-    </nav>
-    <section>
+    <section class="section-one">
         <div>
-            <h1>The Design Thinking superpowers</h1>
-            <p> Tools, tutorials, design and innovation experts, all
+            <h1 class="section-one__title">The Design Thinking superpowers</h1>
+            <p class="section-one__text"> Tools, tutorials, design and innovation experts, all
                 in one place!The most intuitive way to imagine
                 your next user experience.</p>
-            <button>get started</button>
-            <img src="/images/Triangle.svg" alt="">
-            <a href="">watch the video</a>
+            <div class="section-one__btn">
+                <button class="section-one__btn_start btn_color">Get started</button>
+                <div class="section-one__btn_icon">
+                    <img src="/images/Triangle.svg" alt="">
+                    <a class="section-one__link" href="">Watch the Video</a>
+                </div>
+            </div>
         </div>
         <div>
             <img src="/images/Image.png" alt="">
         </div>
     </section>
-    <section>
-        <div>
-            <h2>We design tools to unveil your superpowers</h2>
-            <div>
-                <img src="/images/icon1.svg" alt="">
-                <h4>First click tests</h4>
-                <p>While most people enjoy casino gambling.</p>
+    <section class="section-two">
+        <h2 class="section-title__medium">We design tools to unveil your superpowers</h2>
+        <div class="section-two__text">
+            <div class="section-two__para section-two__icons">
+                <img class="" src="/images/icon1.svg" alt="">
+                <h4 class="section-two__sub-title">First click tests</h4>
+                <p class="paragraph">While most people enjoy casino gambling.</p>
             </div>
-            <div>
-                <img src="/images/icon2.svg" alt="">
-                <h4>Design surveys</h4>
-                <p>Sports betting, lottery and bingo playing for the fun.</p>
+            <div class="section-two__para section-two__icons">
+                <img class="" src="/images/icon2.svg" alt="">
+                <h4 class="section-two__sub-title">Design surveys</h4>
+                <p class="section-special__items">Sports betting, lottery and bingo playing for the fun.</p>
             </div>
-            <div>
-                <img src="/images/icon3.svg" alt="">
-                <h4>Preference tests</h4>
-                <p>The Myspace page defines the individual.</p>
+            <div class="section-two__para section-two__icons">
+                <img class="" src="/images/icon3.svg" alt="">
+                <h4 class="section-two__sub-title">Preference tests</h4>
+                <p class="section-special__items">The Myspace page defines the individual.</p>
             </div>
-            <div>
-                <img src="/images/icon4.svg" alt="">
-                <h4>Five second tests</h4>
-                <p>Personal choices and the overall personality of the person. </p>
+            <div class="section-two__para section-two__icons">
+                <img class="" src="/images/icon4.svg" alt="">
+                <h4 class="section-two__sub-title">Five second tests</h4>
+                <p class="section-special__items">Personal choices and the overall personality of the person.</p>
             </div>
-            <button>
-                sign up
-            </button>
         </div>
+        <button class="section-one__btn_start btn_color">sign up now</button>
     </section>
-    <section>
+    <section class="section-three">
         <div>
-            <p>Effortless Validation for</p>
-            <h2>Design Professionals</h2>
-            <p>The Myspace page defines the individual, his or her
+            <p class="section-special__items">Effortless Validation for</p>
+            <p class="section-title__medium">Design Professionals</p>
+            <p class="section-special__para section-special__items">The Myspace page defines the individual, his or her
                 characteristics, traits, personal choices and the overall
-                personality of the person. </p>
-            <h5>Accessory makers</h5>
-            <p>While most people enjoy casino gambling, sports betting,
+                personality of the person. 
+            </p>
+            <p class="section-three__sub-title">Accessory makers</p>
+            <p class="section-three__text section-special__items">While most people enjoy casino gambling, sports betting,
                lottery and bingo playing for the fun</p> 
-            <h5>Alterationists</h5>
-            <p>If you are looking for a new way to promote your business
-               that won't cost you more money,</p>
-            <h5>Custom Design designers</h5>
-            <p>If you are looking for a new way to promote your business
+            <p class="section-three__sub-title">Alterationists</p>
+            <p class="section-three__text section-special__items">If you are looking for a new way to promote your business
+               that won't cost you more money,
+            </p>
+            <p class="section-three__sub-title">Custom Design designers</p>
+            <p class="section-three__text section-special__items">If you are looking for a new way to promote your business
                that won't cost you more money,</p>
         </div>
-        <div>
+        <div class="section-two__img">
             <img src="/images/Image-2.png" alt="">
         </div>
     </section>
-    <section>
+    <section class="section-four">
         <div><img src="/images/Image-3.png" alt=""></div>
-        <div>
+        <div class="section-four__paragraphs">
             <p>Easier decision making for</p>
-            <p>The Myspace page defines the individual, his or her characteristics,
+            <p class="section-title__medium">Product Managers</p>
+            <p class="section-special__para">The Myspace page defines the individual, his or her characteristics,
                 traits, personal choices and the overall personality of the person.
             </p>
-            <img src="/images/Group-1 .svg" alt="">
-            <p>Never worry about overpaying for your energy again.</p>
-            <img src="/images/Group-1 .svg" alt="">
-            <p>We will only switch you to energy companies that we trust and will treat you right </p>
-            <img src="/images/Group-1 .svg" alt="">
-            <p>We track the markets daily and know where the savings are.</p>
-            <img src="/images/Group-1 .svg" alt="">
-            <p>We track the markets daily and know where the savings are.</p>
+            <div class="section-four__list">
+                <img src="/images/Group-1 .svg" alt="">
+                <p>Never worry about overpaying for your energy again.</p>
+            </div>
+            <div class="section-four__list">
+                <img src="/images/Group-1 .svg" alt="">
+                <p>We will only switch you to energy companies that we trust and will treat you right 
+                </p>
+            </div>
+            <div class="section-four__list">
+               <img src="/images/Group-1 .svg" alt="">
+                <p>We track the markets daily and know where the savings are.</p>
+            </div>
         </div>
     </section>
-    <section>
+    <section class="section-three section-five">
         <div>
-            <p>Optimisation for</p>
-            <h2>Marketers</h2>
-            <p>Few would argue that, despite the advancements of
-               feminism over the past three decades, women still face a
-               double standard when it comes to their behavior.  </p>
-            <h5>Accessory makers</h5>
-            <p>While most people enjoy casino gambling, sports betting,
+            <p class="section-special__items">Optimisation for</p>
+            <p class="section-title__medium">Marketers</p>
+            <p class="section-special__para section-special__items">Few would argue that, despite the advancements
+                 of feminism over the past three decades, women still face a double standard when it comes to their behavior. 
+            </p>
+            <p class="section-three__sub-title">Accessory makers</p>
+            <p class="section-three__text section-special__items">While most people enjoy casino gambling, sports betting,
                 lottery and bingo playing for the fun</p> 
-            <h5>Alterationists</h5>
-            <p>If you are looking for a new way to promote your business
-                that won't cost you more money,</p>
-            <h5>Custom Design designers</h5>
-            <p>If you are looking for a new way to promote your business
-                that won't cost you more money,</p>
+            <p class="section-three__sub-title">Alterationists</p>
+            <p class="section-three__text section-special__items">If you are looking for a new way to promote your business
+                that won't cost you more money,
+            </p>
+            <p class="section-three__sub-title">Custom Design designers</p>
+            <p class="section-three__text section-special__items">If you are looking for a new way to promote your business
+                that won't cost you more money,
+            </p>
         </div>
-        <div>
-            <img src="/images/Image-4.png" alt="">
+        <div class="section-two__img">
+            <img src="/images/Image-2.png" alt="">
         </div>
     </section>
-    <footer>
+    
+    
+    <!--<footer>
         <div>
             <a href="index.html"><img src="./images/logo.png" alt=""><span>productly</span></a>
         </div>
@@ -144,6 +161,6 @@
                 <button>sign up now</button>
             </div>
         </div>
-    </footer>
+    </footer>-->
 </body>
 </html>
