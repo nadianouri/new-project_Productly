@@ -123,12 +123,15 @@ button {
     color: #2F281E;
 }
 .section-two__text {
+    width: 1095px;
+    height: 204px;
     display: flex;
-    padding-right: 70px; 
 }
 .section-two__para {
     width: 240px;
-    height: 178px;  
+    height: 178px;
+    position: relative;
+    right: 42px;
 }
 .section-two__icons {
     width: 240px;
@@ -146,7 +149,6 @@ button {
     height: 574px;
     display:flex;
     margin-top: 120px;
-    margin-left: 30px;
 }
 .section-three__text {
     width: 486px;
@@ -204,5 +206,55 @@ button {
     position: relative;
     left: 82px;
 }
+.footer {
+    width: 100%;
+    width:1111px;
+    height: 308px;
+    display: flex;
+    margin-top: 159px;
+    list-style-type: none;
+    border-top: 1px solid #BCD0E5;
+    padding-top: 102px;
+}
+.footer-list {
+    display: flex;
+    align-items: center; 
+}
+.footer-list>ul>li>a{
+    text-decoration: none;
+    color: #544837;
+    line-height: 35px;
+}
+.footer-list__one {
+    margin-left: 126px;
+    list-style-type: none;
+}
+.footer-list>ul>li {
+    width: max-content;
+}
+.footer-list__two {
+    margin-left: 129px;
+    list-style-type: none;
+}
 
+.footer-register {
+    display: flex;
+    flex-direction: column;  
+    margin-left: 82px;  
+}
+.footer-register__input {
+    width: 325px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;   
+}
+.footer-register__btn-signup {
+    width: 131px;
+    height: 39px;
+    background-color: #FF9900;
+    color: #FFFFFF;
+    border:none;
+    margin-top: 21px;
+}
 
